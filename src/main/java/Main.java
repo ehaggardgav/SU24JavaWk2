@@ -143,6 +143,8 @@ System.out.println("\nShipment Details:");
     inventory[3][3] = inventory[3][3] + quantIN; 
     inventory[4][3] = inventory[4][3] + quantIN;
 
+//Again, this would have to be manually updated for any changes, so is not a good general approach, but could be used to track simple changes.
+      
       System.out.println("\nUpdated Tool Inventory");
       System.out.print(items[0] + ": " + "Warehouse_1 = " + inventory[0][0] + " ");
       System.out.print("Warehouse_2 = " + inventory[0][1] + " ");
